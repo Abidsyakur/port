@@ -31,7 +31,6 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -55,7 +54,7 @@ const services: TService[] = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "PHP Native Developer",
     icon: mobile,
   },
   {
@@ -82,7 +81,7 @@ const technologies: TTechnology[] = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
+    name: "PHP",
     icon: typescript,
   },
   {
@@ -104,10 +103,6 @@ const technologies: TTechnology[] = [
   {
     name: "MongoDB",
     icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
   },
   {
     name: "git",
