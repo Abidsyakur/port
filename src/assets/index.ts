@@ -6,6 +6,8 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import kutukode from "./company/kutukode.png";
+import php from "./tech/php.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -18,6 +20,10 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
+import c from "./tech/c.png";
+import sql from "./tech/sql.png";
+import py from "./tech/py.png";
+import laravel from "./tech/laravel.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
@@ -25,12 +31,32 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import speak from "./company/speak.png";
+import five from "./company/five.png";
 
+import kripto from "./kripto.png";
+import rem from "./rem.png";
+import ramadhan from "./ramadhan.png";
+import rupiah from "./rupiah.png";
+import solvecovid from "./solvecovid.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  rem,
+  py, 
+  laravel,
+  sql,
+  c,
+  five,
+  rupiah,
+  kripto,
+  ramadhan, 
+  solvecovid,
+  speak,
+  php,
+  kutukode,
   logo,
   backend,
   creator,

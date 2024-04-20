@@ -40,13 +40,13 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "Muhammad Abid — Backend Developer",
+    title: "Muhammad Abid — Tech Enthusiast",
     fullName: "Muhammad Abid A Syakur",
     email: "abidsyakur7@mail.com",
   },
   hero: {
     name: "Muhammad Abid A Syakur",
-    p: ["I develop Backend website, aplication", "database system"],
+    p: ["I'm interest with  Technology Developement"],
   },
   contact: {
     p: "Get in touch",
@@ -74,11 +74,11 @@ export const config: TConfig = {
     },
     experience: {
       p: "What I have done so far",
-      h2: "Education Experience.",
+      h2: "Work Experience.",
     },
     feedbacks: {
-      p: "What others say",
-      h2: "Testimonials.",
+      p: "About Me??",
+      h2: "Lets See.",
     },
     works: {
       p: "My work",

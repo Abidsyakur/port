@@ -8,29 +8,32 @@ import type {
 } from "../types";
 
 import {
+  five,
+  speak,
+  php,
   mobile,
   backend,
+  kutukode, 
   creator,
   web,
   javascript,
-  typescript,
-  html,
   css,
   reactjs,
-  redux,
+  sql,
   tailwind,
   nodejs,
   mongodb,
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  kripto,
+  solvecovid,
+  c,
+  ramadhan,
+  rupiah,
+  py,
+  laravel,
+  rem, 
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -69,8 +72,8 @@ const services: TService[] = [
 
 const technologies: TTechnology[] = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "python",
+    icon: py,
   },
   {
     name: "CSS 3",
@@ -82,15 +85,15 @@ const technologies: TTechnology[] = [
   },
   {
     name: "PHP",
-    icon: typescript,
+    icon: php,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "SQL",
+    icon: sql,
   },
   {
     name: "Tailwind CSS",
@@ -116,59 +119,61 @@ const technologies: TTechnology[] = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "C",
+    icon: c,
+  },
+  {
+    name: "laravel",
+    icon: laravel,
+  },
 ];
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
-    icon: starbucks,
+    title: "Content Creator",
+    companyName: "Kutukode",
+    icon: kutukode,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "August 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Create tutorials and videos that explain C programming concepts practically and thoroughly",
+      "And actively participate in the community to share experiences and learn together",
     ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
-    icon: tesla,
+    title:  "Web Developer",
+    companyName: "Freelance",
+    icon: kutukode,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "March 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Analyze client needs and design appropriate software solutions.",
+      "Provide technical support and maintenance for applications that have been developed.",
+      "Communicate regularly with clients to provide project updates and resolve problems as they arise.",
     ],
   },
   {
-    title: "Web Developer",
-    companyName: "Shopify",
-    icon: shopify,
+    title: "IT Support Volunteer",
+    companyName: "Speakable Youth",
+    icon: speak,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Maret 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "address technical issues that platform users may encounter.",
+      "is involved in technical maintenance of the platform, such as ensuring that all systems and features function properly, performing regular software updates, and ensuring the security of the platform from attacks or other security vulnerabilities.",
+      "tasked with collecting and reporting technical problems that often occur to the development team or platform management. It helps in improvements and development of the platform to improve the overall user experience.",
     ],
   },
   {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
+    title: "Software Engineer Volunteer",
+    companyName: "Five Element Zone Canada",
+    icon: five,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2023 - November 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designing the backend systems used in the project, including architectural design, database schema, system integration and required APIs",
+      "Optimize backend systems performance to increase speed, scalabillity and operatoinal efficiency",
     ],
   },
 ];
@@ -202,33 +207,29 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Solve Covid Runner Game",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Games that can provide education and raise awarennes of the importance of health protocols during the Covid-19 pandemic",
     tags: [
       {
-        name: "react",
+        name: "c",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "unrealengine",
         color: "green-text-gradient",
       },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
     ],
-    image: carrent,
+    image: solvecovid,
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Zakat Yuk",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "The Zakat Yuk platform is an application or website that aims to make it easier and encourage people to make zakat payments online.",
     tags: [
       {
-        name: "react",
+        name: "php",
         color: "blue-text-gradient",
       },
       {
@@ -236,33 +237,59 @@ const projects: TProject[] = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "codeigniter",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: ramadhan,
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Kripto Talks",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The Krypto Talks platform is an online forum dedicated to discussing topics related to the world of cryptography, blockchain and digital currencies.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "git",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: kripto,
     sourceCodeLink: "https://github.com/",
+  },
+  {
+    name: "Rupiah Detection",
+    description:
+      "This project is a simple machine learning entitled Rupiah Detection. Similar to object detection, this project detects rupiah currency ranging from 100k to 2k.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: rupiah,
+    sourceCodeLink: "https://rupiah-detection.abidsyakur73-bo.repl.co/",
+  },
+  {
+    name: "Ramadhan Event Management",
+    description:
+      "Ramadhan Event Management is the process of planning, organizing, implementing and evaluating events held during the month of Ramadan.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: rem,
+    sourceCodeLink: "https://rupiah-detection.abidsyakur73-bo.repl.co/",
   },
 ];
 
