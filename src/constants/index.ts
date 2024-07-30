@@ -13,9 +13,8 @@ import {
   php,
   mobile,
   backend,
-  kutukode, 
+  kutukode,
   creator,
-  web,
   javascript,
   css,
   reactjs,
@@ -23,7 +22,6 @@ import {
   tailwind,
   nodejs,
   mongodb,
-  git,
   figma,
   docker,
   kripto,
@@ -33,7 +31,7 @@ import {
   rupiah,
   py,
   laravel,
-  rem, 
+  rem,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -53,11 +51,7 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "PHP Native Developer",
+    title: "PHP  Developer",
     icon: mobile,
   },
   {
@@ -108,10 +102,6 @@ const technologies: TTechnology[] = [
     icon: mongodb,
   },
   {
-    name: "git",
-    icon: git,
-  },
-  {
     name: "figma",
     icon: figma,
   },
@@ -158,7 +148,7 @@ const experiences: TExperience[] = [
     companyName: "Speakable Youth",
     icon: speak,
     iconBg: "#383E56",
-    date: "Maret 2024 - Present",
+    date: "Maret 2024 - May 2024",
     points: [
       "address technical issues that platform users may encounter.",
       "is involved in technical maintenance of the platform, such as ensuring that all systems and features function properly, performing regular software updates, and ensuring the security of the platform from attacks or other security vulnerabilities.",

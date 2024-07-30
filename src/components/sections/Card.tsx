@@ -30,7 +30,7 @@ const FeedbackContainer: React.FC = () => {
             </p>
             <div className="mt-7 flex flex-col items-center lg:items-start">
               <p className="text-[16px] font-medium text-white">
-                <span className="blue-text-gradient">@</span> Muhammad Abid A S
+                <span className="blue-text-gradient">@</span> Muhammad Abid A Syakur
               </p>
               <p className="text-secondary mt-1 text-[12px]">Tech Enthusiast</p>
             </div>
@@ -38,7 +38,7 @@ const FeedbackContainer: React.FC = () => {
               {[{ src: 'insta.png', alt: 'Instagram', link: 'https://www.instagram.com/bidsykr/' },
                 { src: 'medi.png', alt: 'Medium', link: 'https://medium.com/@sonofmarcus' },
                 { src: 'vk.png', alt: 'VKontakte', link: 'https://vk.com/bidsyakur' },
-                { src: 'tele.png', alt: 'Telegram', link: 'https://t.me/bidsykr' }].map((logo, index) => (
+                { src: 'tele.png', alt: 'Telegram', link: 'https://t.me/abidsyakur' }].map((logo, index) => (
                   <a key={index} href={logo.link} target="_blank" rel="noopener noreferrer">
                     <motion.img src={logo.src} alt={logo.alt} className="w-8 h-8 ml-2" />
                   </a>
@@ -53,5 +53,4 @@ const FeedbackContainer: React.FC = () => {
     </motion.div>
   );
 };
-
 export default FeedbackContainer;
