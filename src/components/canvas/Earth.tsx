@@ -1,44 +1,23 @@
-import { Suspense } from "react";
-import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
+import React from "react";
 
-import CanvasLoader from "../layout/Loader";
-
-const Earth = () => {
-  const earth = useGLTF("./planet/scene.gltf");
-
+const EarthImages = () => {
   return (
-    <primitive object={earth.scene} scale={2.5} position-y={0} rotation-y={0} />
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', height: '100vh' }}>
+      <img 
+        src="./planet/idcard.png" // Ganti dengan path gambar atas Anda
+        alt="Earth Top"
+        style={{ width: '80%', height: 'auto', marginBottom: '20px' }} // Atur gaya sesuai kebutuhan
+      />
+        <p style={{ fontSize: '18px', marginTop: '50px' }}>
+        Scan the QR code below if you want to see the AR of the ID card.
+      </p>
+      <img 
+        src="./planet/qrcode.png" // Ganti dengan path gambar bawah Anda
+        alt="Earth Bottom"
+        style={{ width: '50%', height: 'auto', marginTop: '50px'  }} // Atur gaya sesuai kebutuhan
+      />
+    </div>
   );
 };
 
-const EarthCanvas = () => {
-  return (
-    <Canvas
-      shadows
-      frameloop="demand"
-      dpr={[1, 2]}
-      gl={{ preserveDrawingBuffer: true }}
-      camera={{
-        fov: 45,
-        near: 0.1,
-        far: 200,
-        position: [-4, 3, 6],
-      }}
-    >
-      <Suspense fallback={<CanvasLoader />}>
-        <OrbitControls
-          autoRotate
-          enableZoom={false}
-          maxPolarAngle={Math.PI / 2}
-          minPolarAngle={Math.PI / 2}
-        />
-        <Earth />
-
-        <Preload all />
-      </Suspense>
-    </Canvas>
-  );
-};
-
-export default EarthCanvas;
+export default EarthImages;
